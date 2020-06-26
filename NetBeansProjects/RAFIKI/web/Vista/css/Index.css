@@ -1,0 +1,348 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-jun-2020, 22:33:27
+    Author     : tatianagomez
+*/
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 120px;
+}
+.logo{
+    width: 90%;
+    height: 90%;
+    max-width: 130px;
+    /*background: white;*/
+    background-image: url(../imagen/logo-2.png);
+    background-size: 100% 100%;
+    float: center;
+}
+.contenedorlogo{
+    width: 15%;
+    height: 120px;
+    float: left;
+    background: #B2CCC6;
+}
+.navegacion{
+    width: 65%;
+    height: 120px;
+    background-color: white;
+    list-style-type: none;/*no se van a utilizar bolitas o marcas de ningún tipo al lado de los elementos de la lista*/
+    text-align: left; /*Centrar*/ 
+    font-size: 20px;
+    /*border: 2px solid black;*/
+    padding: 50px; /*margen*/
+    float: left;
+    background: #B2CCC6;
+    font-family: sans-serif;
+}
+.navegacion li{
+    display: inline; /*aliniados*/
+    text-align: left;
+    margin: 0 10px 0 0;
+    color: white;
+}
+.navegacion li a{
+    padding: 10px 10px 10px 10px; /*marquen*/
+    color: white;
+    text-decoration: black;
+
+}
+.ingresar{
+    width: 20%;
+    height: 120px;
+    background-color: white;
+    list-style-type: none;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 50px 50px 10px 0px ;
+    /*border: 2px solid white;*/
+    float: right;
+    background: #B2CCC6;
+}
+.ingresar li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.ingresar li a{
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: black;
+}
+.texto{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+}
+.contenedortexto {
+    width: 95%;
+    height: 200px;
+    float: right;
+}
+.buscador{
+    width: 95%;
+    height: 100px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 15px;
+    /*background: rosybrown;*/
+}
+.Recomendado{
+    width: 95%;
+    height: 100px;
+    /* background: white; */
+    list-style-type: none;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.contenedorcaja{
+    width: 100%;
+    height: 700px;
+}
+.caja{
+    width: 33%;/*height: 100%;*/
+    font-family: sans-serif;
+    display: inline-block;/*en linea pero en bloques*/
+    text-align: center;
+    
+}
+.alinearizquierda{
+    text-align: left;
+}
+.alinearderecha{
+    text-align: right;
+}
+.contenedorimagenp{
+    width: 100%;
+    height: 250px;
+}
+.imagenp{
+    width: 200%;
+    height: 200%;
+    max-width: 350px;
+    max-height: 200px;
+    background-image: url(../imagen/images3.png);
+    background-size: 100% 100%;
+    /*border-radius: 50%;*/
+    margin: 0 auto;
+}
+.imagenp1{
+    width: 200%;
+    height: 200%;
+    max-width: 350px;
+    max-height: 200px;
+    background-image: url(../imagen/images2.png);
+    background-size: 100% 100%;
+    /*border-radius: 50%;*/
+    margin: 0 auto;
+}
+.imagenp2{
+    width: 200%;
+    height: 200%;
+    max-width: 350px;
+    max-height: 200px;
+    background-image: url(../imagen/imagen1.png);
+    background-size: 100% 100%;
+    /*border-radius: 50%;*/
+    margin: 0 auto;
+}
+.Buscarhospedaje{
+    width: 95%;
+    height: 200px;
+    font-family: sans-serif;
+    font-size: 18px;
+    float: right;
+}
+.lista{
+    width: 95%;
+    height: 400px;
+}
+.quienes{
+    width: 100%;
+    height: 100px;
+    /*background: white;*/
+    list-style-type: none;
+    text-align: left;
+    font-family: sans-serif;
+    /*border: 2px solid black;*/  
+}
+.contenedorsub{
+    width: 100%;
+    height: 600px;
+}
+.sub{
+    width: 34%;/*height: 100%;*/
+    font-family: sans-serif;
+
+    display: inline-block;/*en linea pero en bloques*/
+    /* margin-right: 120px; */
+}
+.imagensub{
+    width: 20%;
+    display: inline-block;
+    margin-left: 110px !important;
+    margin-right: 110px !important;
+}
+.imagensub1{
+    width: 50%;
+    height: 50%;
+    max-width: 140px;
+    max-height: 140px; 
+    background-image: url(../imagen/reloj.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.imagensub2{
+    width: 50%;
+    height: 50%;
+    max-width: 140px;
+    max-height: 140px; 
+    background-image: url(../imagen/pata.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.imagensub3{
+    width: 50%;
+    height: 50%;
+    max-width: 140px;
+    max-height: 140px; 
+    background-image: url(../imagen/mata.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.contactenos{
+    width: 100%;
+    height: 100px;
+    list-style-type: none;
+    text-align: center;
+    font-family: sans-serif;
+}
+.formulario{
+    width: 50%;
+    height: 500px;
+    /* background: cornsilk;
+    border: 2px solid black; */
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+}
+.miTabla{
+    margin-left: 90px;
+}
+.miTabla td{
+    text-align: left;
+    width: 100px;
+}
+.miTabla tr{
+    line-height: 25px;
+}
+
+/*   al class */
+.alinearAlaDerecha{
+    text-align: left;
+}
+.alinearcentrot{
+    text-align: center;
+}
+.alineacentro{
+    margin: 0 auto;
+}
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid #424242;
+    margin-left: 170px;
+}
+.botonpersonal a{
+    color: blanchedalmond;
+    background: cadetblue;
+}
+.mapa{
+    width: 50%;
+    height: 300px;
+    background-image: url(../imagen/mapa.png);
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    /* background: cornsilk;
+    border: 2px solid black; */
+    float: left;
+}
+.redes{
+    width: 50%;
+    height: 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    /* background: cornsilk; */
+    /* border: 2px solid black; */
+    margin: 5px 0 15px 0;
+    float: left;
+}
+.imagenredes{
+    width: 20%;
+    height: 20%;
+    max-width: 50px;
+    max-height: 50px;
+    background-size: 100% 100%;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    margin-left: 60px;
+    float: left;
+}
+.pie{
+    width: 100%;
+    height: 100px;
+   /*  border: 2px solid black; */
+    float: left;
+}
+.navegacionfinal{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    list-style-type: none;
+    text-align: left; 
+    font-family: sans-serif; 
+    font-size: 15px;
+    padding: 50px;
+    float: left;
+    margin: 0 0 20px 20px
+}
+.navegacionfinal li{
+    display: inline; /*aliniados*/
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.navegacionfinal li a{
+    padding: 10px 10px 10px 10px; /*marquen*/
+    color: black;
+    text-decoration: black;
+}
+/*selector descendente*/
+.navegacionfinal .negrilla{
+    font-weight: bold;
+}
+
+

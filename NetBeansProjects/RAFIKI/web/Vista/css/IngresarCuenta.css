@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-jun-2020, 23:32:55
+    Author     : tatianagomez
+*/
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 120px;
+}
+.logo{
+    width: 90%;
+    height: 90%;
+    max-width: 120px;
+    /*background: white;*/
+    background-image: url(../imagen/logo-2.png);
+    background-size: 100% 100%;
+    float: left;
+}
+.contenedorlogo{
+    width: 15%;
+    height: 120px;
+    float: left;
+    background: #B2CCC6;
+}
+.navegacion{
+    width: 70%;
+    height: 120px;
+    background-color: white;
+    list-style-type: none;/*no se van a utilizar bolitas o marcas de ningún tipo al lado de los elementos de la lista*/
+    text-align: right; /*Centrar*/
+    font-family: sans-serif; /*tipografia*/
+    font-size: 20px;/*tamaño*/
+    /*border: 2px solid black;*/
+    padding: 50px; /*margen*/
+    float: left;
+    background: #B2CCC6;
+}
+.navegacion li{
+    display: inline; /*aliniados*/
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.navegacion li a{
+    padding: 10px 10px 10px 10px; /*marquen*/
+    color: white;
+    text-decoration: black;
+
+}
+.ingresar{
+    width: 15%;
+    height: 120px;
+    background-color: white;
+    list-style-type: none;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 50px 50px 10px 0px ;
+    /*border: 2px solid white;*/
+    float: right;
+    background: #B2CCC6;
+}
+.ingresar li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.ingresar li a{
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: black;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagen/5.jpg);
+    background-size: 100% 100%;
+    /*border: 2px solid black;*/
+    float: left;
+}
+.contenedorimagen{
+    width: 100%;
+    height: 600px;
+}
+.formulario{
+    width: 53%;
+    /* height: 80px; */
+    font-family: sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin: 10px 0 30px 30px;
+    top: 26%;
+    right: -20%;
+    color: white;
+    border-radius: 5px;
+    list-style-type: none;
+    background: #808080a6;
+    padding: 30px;
+}
+.izquierda{
+    text-align: left;
+}
